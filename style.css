@@ -62,13 +62,13 @@ h2{
 }
 @media (max-width:768px) {
     .card{
-        width: 35%;
+        width: 42%;
     }
     
 }
 @media(max-width:425px){
     .card{
-        width: 42%;
+        width: 80%;
     }
     .container{
         display: flex;
