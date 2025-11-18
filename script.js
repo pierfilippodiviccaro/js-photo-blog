@@ -7,7 +7,7 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
     let postStr="";
     array.forEach((curPost)=>{
     postStr += `<div class="card">
-                 <img src="./img/pin.svg" alt="" class="pin"> 
+                 <img src="./img/pin.svg" alt="" class="puntina"> 
                 <img src="${curPost.url}" alt="" class="immagine">
                 <p>${curPost.date}</p>
                 <h2>${curPost.title}</h2>
