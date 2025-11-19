@@ -1,104 +1,118 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     background-image: url(./img/wall.png);
     width: 100%;
     height: 150px;
 }
+
 .edu-tas-beginner {
-font-family: "Edu TAS Beginner", cursive;
+    font-family: "Edu TAS Beginner", cursive;
 }
-.titolo{
+
+.titolo {
     font-size: 100px;
     text-align: center;
 }
-.body{
+
+.body {
     background-image: url(./img/cork.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
 }
-.container-2{
+
+.container-2 {
     display: flex;
-flex-wrap: wrap;
-gap: 20px;
-padding-top: 30px;
-min-height: 100vh;
-justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+    min-height: 100vh;
+    justify-content: center;
 }
 
-.card{
+.card {
     background-color: white;
     width: 25%;
     height: 47%;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     position: relative;
-    margin-bottom: 70px;
-    transition:
-    width 1s,
-    height 1s,
-    background-color 2s,
-    rotate 1s;
+    transition: width 1s,
+        height 1s,
+        background-color 2s,
+        rotate 1s;
 }
-.immagine{
+
+.immagine {
     height: 65%;
     width: 80%;
     margin-top: 30px;
 }
-.puntina{
+
+.puntina {
     position: absolute;
     top: -10px;
     margin-left: 10px;
 }
-p{
+
+p {
     margin-top: 10px;
     font-family: "Sometype Mono", monospace;
     color: gray;
 }
-h2{
+
+h2 {
     margin-top: 5px;
     font-family: "Sometype Mono", monospace;
 }
+
 @media (max-width:768px) {
-    .card{
+    .card {
         width: 42%;
     }
-    
+
 }
-@media(max-width:425px){
-    .card{
+
+@media(max-width:425px) {
+    .card {
         width: 80%;
     }
-    .container{
+
+    .container {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .titolo{
+
+    .titolo {
         font-size: 77px;
     }
 }
-@media (max-width:320px){
-    .card{
+
+@media (max-width:320px) {
+    .card {
         width: 80%;
     }
-    .titolo{
+
+    .titolo {
         font-size: 50px;
     }
 }
-.card:hover{
+
+.card:hover {
     cursor: pointer;
     rotate: -20deg;
 
 }
 
-.overlay{
+.overlay {
     position: fixed;
     z-index: 99999;
     left: 0;
@@ -110,22 +124,25 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-}    
+}
 
 
-    .cur-img{
-        display: flex;
-        flex-direction: column;
-        width: 36%;
-    }
-.chiudi{
+.cur-img {
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+}
+
+.chiudi {
     font-size: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
-.d-none{
+
+.d-none {
     display: none;
 }
-.d-block{
+
+.d-block {
     display: block;
 }
