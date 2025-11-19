@@ -39,7 +39,7 @@ justify-content: center;
     flex-direction: column;
     align-items: center; 
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     transition:
     width 1s,
     height 1s,
@@ -125,4 +125,7 @@ h2{
 }
 .d-none{
     display: none;
+}
+.d-block{
+    display: block;
 }
