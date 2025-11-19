@@ -123,3 +123,6 @@ h2{
     margin-bottom: 10px;
     border-radius: 10px;
 }
+.d-none{
+    display: none;
+}

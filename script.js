@@ -1,6 +1,7 @@
 const grid = document.getElementById("post-grid")
-
-
+const overlay = document.querySelector(".overlay")
+const immagine = document.querySelector(".cur-img")
+const carte = document.querySelectorAll(".card")
 axios.get("https://lanciweb.github.io/demo/api/pictures/")
 .then((resp)=>{
     const array = resp.data
@@ -15,5 +16,14 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
     })
      grid.innerHTML = postStr
 })
+carte.forEach((overlay)=>{
+    carte,addEventListener("click", function(){
+        overlay.classList.remove(".d-none")
+
+
+    })
+})
+
+
 
 
