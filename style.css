@@ -39,7 +39,7 @@ justify-content: center;
     flex-direction: column;
     align-items: center; 
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     transition:
     width 1s,
     height 1s,
@@ -94,6 +94,32 @@ h2{
 }
 .card:hover{
     cursor: pointer;
-    rotate: 50deg;
+    rotate: -20deg;
 
+}
+
+.overlay{
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    background-color: rgb(27, 26, 26, 0.5);
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+
+    .cur-img{
+        display: flex;
+        flex-direction: column;
+        width: 36%;
+    }
+.chiudi{
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
